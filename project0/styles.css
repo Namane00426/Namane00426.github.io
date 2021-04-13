@@ -1,0 +1,196 @@
+/* Universal Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body  {
+  font-family: Sans-serif;
+  font-weight: 400;
+  width: 80vw;
+  margin: 0 auto;
+  min-width: 500px;
+  background-color: white;
+  color: black;
+}
+
+/* Section Styles */
+
+header {
+  position: relative;
+  top: 10px;
+  left: 15px;
+  display: block;
+  font-weight: 600;
+}
+
+main {
+  margin: 0 auto;
+  min-width: 500px;
+}
+
+/* Element & Class Styles */
+
+.colors, 
+.fonts,
+.text-styles {
+  position: relative;
+  top: 15px;
+  height: auto;
+  padding: 0 40px;
+  margin-bottom: 15px;
+  border: .75px solid black;
+  font-weight: 600;
+}
+
+.section-name {
+  position: relative;
+  font-size: 1.5rem; 
+  margin: 1rem auto;
+  border-bottom: 0.75px solid black;
+}
+
+/* Colors */
+
+
+.castleton-green,
+.lightgoldenrod-yellow,
+.xanthic,
+.goldenrod {
+  width: 40%;
+  height: 75px;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: courier;
+  font-size: .85rem;
+}
+
+.castleton-green {
+  background-color: #005B4A;
+  color: white !important ;
+}
+
+.lightgoldenrod-yellow {
+   background-color: #F5F3CB;
+}
+
+.xanthic {
+   background-color: #ebee29;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.goldenrod {
+  background-color: #daa520;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* fonts */
+
+.fonts {
+  position: relative;
+  display: block;
+  height: auto;
+}
+
+.raleway,
+.courier-prime {
+  position: relative;
+  display: block;
+  margin-left: 20px;
+  padding-bottom: 15px;
+  line-height: 1.5rem;
+}
+
+.title { 
+  position: relative;
+  display: block;
+  font-size: 1rem;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.courier-prime{
+  font-family: 'Courier Prime', monospace;
+}
+
+
+.w400 {
+  font-weight: 400;
+}
+
+.w700 {
+  font-weight: 700;
+}
+
+.italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* text-styles */
+
+.text-styles {
+  display: block;
+  padding: 10px auto;
+  margin-bottom: 15px;
+}
+
+.text-styles div {
+margin-bottom: 15px;
+}
+
+.biggest {
+  border: none;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Courier Prime', monospace;
+  
+}
+
+.middle {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.paragraph {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 5px;
+  font-weight: 400;
+}
+
+.caption {
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 5px;
+  font-weight: 400;
+  font-style: Italic;
+}
+
+.text-styles ul{
+  position: relative;
+  display: block;
+  left: 15px;
+  font-weight: 400;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+
+
+
+
+
+
+
+
