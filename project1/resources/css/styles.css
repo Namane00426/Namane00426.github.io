@@ -2,8 +2,6 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Chango&family=Raleway:wght@400;700&display=swap');
-
 body {
   background-color: white;
   padding: 0;
@@ -101,7 +99,7 @@ header img {
   font-weight: 800;
   font-size: 1.5rem;
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Chango', sans-serif;
 }
 
 
