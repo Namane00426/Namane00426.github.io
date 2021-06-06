@@ -131,7 +131,7 @@ header h2 {
   display: flex;
   flex-flow: column;
   height: auto;
-  width: 100vw;
+  width: 90vw;
   margin: 0 auto;
 }
 
@@ -147,10 +147,11 @@ header h2 {
   background-color: #ffffff;
   justify-content: center;
   margin: 0 10%;
+  width: 80%;
 }
 
 .works ul {
-  width: 85vw;
+  width: 100%;
   text-align: left;
 }
 
