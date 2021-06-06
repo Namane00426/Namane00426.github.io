@@ -1,47 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Nanase's Note</title>
-  <link href="https://Namane00426.github.io/resources/css/styles.css" rel="stylesheet"  type="text/css" />
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Nanase's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
+    <link href="./resources/css/styles.css" rel="stylesheet"  type="text/css" />
+    <link rel="stylesheet" href="./resources/css/reset.css">
+  </head>
 
   <body>
-    <!-- Header -->
-    <header>
-      <h2>My projects <span>- Nanase Eriksson -</span></h2>
-      <!-- <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Works</a></li>
-        </ul>
-      </nav> -->
-    </header>
- 
-  <main>
-    <!--Side bar-->
-    <aside>
-    <div class="image"><img src="resources/images/16-sommar_new.jpg" alt="authors image"></div> 
-      <h2>Nanase<br>Eriksson</h2>
-      <p>Japanese, <br> living in Sweden since 2019. <br><br><strong>Language</strong> Japanese, English, Swedish <br><br><strong>Skill</strong> JavaScript, HTML, CSS</p>
-    </aside>
+    <div class="grid">
 
-    <div class="works">
-      <h2>Works list</h2>
-        <ul>
-          <li><a href="project0/index.html">📓 HTML training</a></li>
-          <li><a href="project1/index.html" >📓  My first website - cat cafe</a></li>
-          <li><a href="project2/index.html">📓 My second website - cafe top page</a></li>
-          <li><a href="#">📓 next comming soon...</a></li>
-        </ul>
+      <!-- Header -->
+      <header>
+        <div class="content center">
+          <h2>Portfolio</h2>
+        </div>
+      </header>
+  
+    <div class="main-content">
+      <!--profile-->
+      <div class="profile">
+
+        <div class="title">
+          <h2> Nanase Eriksson </h2>
+          <br>
+          <h3>Hi, Welcome to my portfolio.<br>I'm Japanese and studying for full-stack engineer at Codecademy.</h3>
+        </div>
+
+        <div class="content center">
+            <div class="image-container">
+              <img src="resources/images/16-sommar_new.jpg" alt="authors image">
+            </div> 
+
+            <div class="biography">
+              <ul>
+                <li><span>Language:</span> English, Swedish, Japanese(mother language)</li><br>
+                <li><span>Skills:</span> JavaScript, HTML, CSS</li>
+                
+              </ul>
+              <ul>
+                <li><h3>Work experience : </h3></li>
+                <li><h3>Planning and Development food product: 2 years.</h3></li>
+                <li><h3>Assistant design director for advertising fryer : 3 years.</h3></li>
+                <li><h3><span>Education :</span><br> 2015-2016 Forsa Folkhögskola, Textiles&weaving course</h3></li>
+
+                <li><h3>2003-2007 Musashino Art University, Science of design course</h3></li>
+
+              </ul>
+            </div>
+        </div>
+      </div>
+
+      <!--works-->
+      <div class="works">
+        <h2 class="title">My Works</h2>
+        <div class="content">
+            <ul>
+              <li><a href="project0/index.html">📓 HTML training</a></li>
+              <li><a href="project1/index.html" >📓  My first website - Cat cafe (top page)</a><span class="date"> 2021,Mar</span></li>
+              <li><a href="project2/index.html">📓  website #2 - Cafe (top)</a><span class="date"> 2021,Apr</span></li>
+              <li><a href="project3/index.html">📓 website #3 - Company website (top)</a><span class="date"> 2021,Maj</span></li>
+            </ul>
+        </div>
     </div>
-  </main>
+
+    </div>
 
     <!--Footer-->
-    <footer>
-      <p>&copy;  Nanase.E</p>
-      <a href="mailto:nanase.forapp@gmail.com">| Contact</a>
+    <footer class="center">
+        <div><h3>&copy; 2021 Nanase.E, All Rights Reserved.</h3>
+        <!-- <a href="mailto:nanase.forapp@gmail.com">| Contact</a> -->
     </footer>
-    
+    </div>
   </body>
 </html>
