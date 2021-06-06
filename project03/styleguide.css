@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  color: black;
+}
+
+html {
+  background-color: white;
+  font-size: 16px;
+}
+/* header */
+
+header h1{
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 10px auto 3px 10px;
+
+}
+
+/* main */
+.main-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 85vw;
+  margin: 10px;
+  padding: 10px;
+  height: auto;
+}
+
+h1 {
+  font-size: 1.625rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.title {
+  margin: 10px;
+  border-bottom: solid .85px black;
+}
+
+/* Colors */
+.color-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 15px;
+}
+
+.color {
+  flex: 1;
+  border: 1px solid gray;
+  padding: 3px 6px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.mb {
+  background-color: #003366;
+  border: none;
+  color: white;
+}
+
+.mb-r {
+  background-color: #79BEDB;
+  border: none;
+}
+
+.or {
+  background-color: #FF6600;
+  border: none;
+  font-weight: 600;
+}
+
+/* Fonts */
+.samples {
+  height: auto;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+
+.fontName {
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.Bold {
+  font-weight: 700;
+}
+
+.Regular {
+  font-weight: 400;
+}
+
+.OpenSans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.RobotoSlab {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Text styles */
+
+.styles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 270px;
+  margin-left: 25px;
+}
+
+.main-heading h1{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+.sub-heading h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.paragraph p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.styles li {
+  font-weight: 400;
+  list-style-type: circle;
+}

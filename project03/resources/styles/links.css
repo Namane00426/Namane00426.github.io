@@ -1,0 +1,167 @@
+/* universal styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-size: 16px;
+  background-color: #fafaf6;
+  width: 100%;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.625rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a, h1, h2, p, li {
+  display: block;
+  line-height: 1;
+  text-decoration: none;
+  list-style: none;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+ text-align: center;
+ margin: 0 auto;
+}
+
+/* header */
+header {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+/* main */
+
+
+/* section & styles */
+
+.top-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 15px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  background-color: #003366;
+}
+
+.logo {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30px;
+}
+
+.logo h2 {
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+nav {
+  margin-left: 1rem;
+}
+
+nav ul{
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #ffffff;
+  font-family: 'Roboto Slab';
+  margin: 0 .5rem;
+}
+
+nav a:hover {
+  font-weight: 300;
+  color: #ffbb00;
+  /* transition: 15s; */
+}
+
+
+/* news */
+
+.news {
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: auto;
+  width: 80vw;
+  background-color: #ffffff;
+  border: solid 2px #ffbb00;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  text-align: left;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+.content {
+  display: grid;
+  height: 350px;
+  width: 100%;
+  grid-template: 1fr 1fr / 1fr 1fr ;
+  grid-gap: 1rem;
+}
+
+
+.a {
+  grid-area: 1 / 1 / 1 / 3;
+  display: inline-flex;
+}
+
+.b, .c {
+  display: inline-flex;
+}
+
+
+/* footer */
+footer {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  background-color: #003366;
+  padding: .75rem;
+  height: 100px;
+  justify-content: center;
+}
+
+footer p {
+  margin-top: 60px;
+  font-size: .7rem;
+}
