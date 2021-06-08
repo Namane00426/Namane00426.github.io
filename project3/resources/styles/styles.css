@@ -264,9 +264,11 @@ nav a:hover {
   font-size: .7rem;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .news {
     width: 70vw;
+    padding-left: 8%;
+    padding-right: 8%;
   }
 }
 
