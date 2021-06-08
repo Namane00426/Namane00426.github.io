@@ -266,10 +266,13 @@ nav a:hover {
 
 @media only screen and (min-width: 1000px) {
   .news {
-    width: 70vw;
     padding-left: 8%;
     padding-right: 8%;
   }
+  .topic-top {
+    justify-content: space-between;
+  }
+  
 }
 
 @media only screen and (max-width: 700px) {
