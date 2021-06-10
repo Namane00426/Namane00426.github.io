@@ -118,7 +118,6 @@ nav a {
 nav a:hover {
   font-weight: 300;
   color: #ffbb00;
-  /* transition: 15s; */
 }
 
 .container {
@@ -224,7 +223,7 @@ nav a:hover {
 .box {
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1rem;
 }
 
@@ -238,6 +237,11 @@ nav a:hover {
   text-align: left;
   font-style: .8rem;
   color: #fafaf6;
+}
+
+.text-box>a:hover {
+  border: 0px;
+  background-color: #284969;
 }
 
 
@@ -267,6 +271,10 @@ nav a:hover {
 }
 
 @media only screen and (min-width: 900px) {
+  .content {
+    padding: 0 5%;
+  }
+
   .b>.text-box,
   .c>.text-box {
     height: 100%;
@@ -275,12 +283,13 @@ nav a:hover {
   
 }
 
-@media only screen and (max-width: 700px) {
-
+@media only screen and (max-width: 750px) {
+  
   .topic-under {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 1fr;
     width: 100%;
+    grid-column-gap: 5px;
   }
 
   .box{
@@ -290,7 +299,7 @@ nav a:hover {
 
   .b img, 
   .c img{
-    height: 150px;
+    height: 120px;
     width: auto;
     margin-right: 2rem;
     align-items: left;
@@ -323,7 +332,7 @@ nav a:hover {
 
 .list {
   position: relative;
-  top: 2rem;
+  top: 1rem;
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
@@ -333,14 +342,14 @@ nav a:hover {
 .book-img img {
   border: .3px solid lightgray;
   width: 100px;
-  margin: 1.3rem 1rem;
+  margin: 1.3rem .7rem;
 }
 
 .book-info {
   text-align: left;
-  width: 120px;
+  width: 110px;
   height: auto;
-  padding: 5px;
+  padding-top: 5px;
 }
 
 .book-info p {
@@ -348,6 +357,7 @@ nav a:hover {
   font-size: .8rem;
   color: #444444;
   line-height: 1.5;
+  padding-left: .5rem;
 }
 
 .book-title {
@@ -357,7 +367,7 @@ nav a:hover {
 
 .link {
   position: relative;
-  top: 2rem;
+  top: 3rem;
   width: 150px;
   margin: 0 auto;
 }
@@ -370,7 +380,7 @@ nav a:hover {
 
 .member {
   position: relative;
-  top: 5rem;
+  top: 6rem;
   width: 90vw;
   height: auto;
   display: flex;
@@ -434,10 +444,6 @@ nav a:hover {
   color: #3a3935;
   width: min-content;
   margin: 5px auto;
-}
-
-.info-box a:hover {
-  border-bottom:solid .5px #fab906;
 }
 
 
