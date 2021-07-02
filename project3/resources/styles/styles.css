@@ -440,6 +440,7 @@ nav a:hover {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
+  max-width: 900px;
 }
 
 .info-box p {
