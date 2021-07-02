@@ -200,6 +200,7 @@ nav a:hover {
   margin-bottom: 2rem;
   width: 80%;
   min-width: 370px;
+  max-width: 900px;
 }
 
 .news>.title,
