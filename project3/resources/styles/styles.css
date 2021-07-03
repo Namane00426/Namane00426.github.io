@@ -340,6 +340,10 @@ nav a:hover {
   justify-content: space-evenly;
 }
 
+#books p {
+  color: #c2c0c0;
+}
+
 .book-img img {
   border: .3px solid lightgray;
   width: 100px;
