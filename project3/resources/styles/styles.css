@@ -459,14 +459,22 @@ footer {
   position: relative;
   top: 0px;
   display: flex;
+  flex-direction: column; 
   background-color: #003366;
   padding: .75rem;
   height: auto;
   justify-content: center;
+  color: #fafaf6;
 }
 
 footer p {
   margin-top: 60px;
   font-size: .7rem;
-  color: #fafaf6;
+  text-align: center;
+}
+
+.credit{
+  margin-top: 10px;
+  font-size: .7rem;
+  line-height: 1;
 }
