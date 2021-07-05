@@ -338,6 +338,7 @@ nav a:hover {
   flex-wrap: wrap;
   padding: 10px;
   justify-content: space-evenly;
+  max-width: 900px;
 }
 
 .subtitle p {
