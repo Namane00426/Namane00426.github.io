@@ -153,16 +153,16 @@ nav li {
   line-height: 1.4;
 }
 
-@media only screen and (max-width: 500px) and (min-width: 320px) {
-  main {
-    height: 270px;
-    margin: 0;
-  }
-
+@media only screen and (max-width: 500px) {
   .banner {
     width: 100%;
     padding: 5px;
     justify-content: space-evenly;
+  }
+  
+  main {
+    height: 270px;
+    margin: 0;
   }
 
   .container {
@@ -239,17 +239,6 @@ main {
  box-shadow: 0 2px 14px 0 rgb(0 0 0 / 10%);
  display: flex;
  flex-direction: column;
-}
-
-@media only screen and (max-width: 500px) {
-
- .imgContainer img {
-    width: 100px !important;
- }
-
- .description {
-  display: none;
-}
 }
 
 @media only screen and (max-width: 790px) {
@@ -419,6 +408,13 @@ input[type="reset"]:hover {
 }
 
 @media only screen and (max-width: 500px) {
+.imgContainer img {
+  width: 100px !important;
+}
+
+.description {
+  display: none;
+}
 .r-1 {
   display: none;
 }
@@ -437,14 +433,13 @@ input[type="reset"]:hover {
   width: 70%;
   }
 
-
 }
 
 /* footer */
 
 .footer {
   position: relative;
-  top: 670px;
+  top: 1070px;
   height: 300px;
   width: 100%;
   color: #ffffff;
