@@ -160,8 +160,6 @@ nav li {
     justify-content: space-evenly;
   }
 
-  
-
   .container {
     height: 200px;
   }
@@ -171,7 +169,7 @@ nav li {
   }
 
   .overview {
-    top: -110px;
+    top: -95px;
   }
 
   .overview p {
