@@ -506,6 +506,7 @@ input[type="reset"]:hover {
 @media only screen and (max-width: 500px) {
   .footer {
     top: 1050px;
+    height: auto;
   }
 
   .wrap {
@@ -545,7 +546,7 @@ input[type="reset"]:hover {
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 800px) {
   .footer {
     top: 750px;
     height: auto;
