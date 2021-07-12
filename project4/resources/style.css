@@ -440,7 +440,7 @@ input[type="reset"]:hover {
 .footer {
   position: relative;
   top: 1070px;
-  height: 300px;
+  height: 400px;
   width: 100%;
   color: #ffffff;
   background: #494949;
@@ -479,7 +479,7 @@ input[type="reset"]:hover {
 
 .credit {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
   background-color: #494949;
   width: 100%;
 }
