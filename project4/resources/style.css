@@ -249,13 +249,17 @@ main {
   .imgContainer img {
     width: 100px !important;
  }
+
+ .description {
+  display: none;
+}
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 790px) {
   main {
     height: 1200px;
     width: 100%;
-    top: 250px;
+    top: 270px;
     grid-template-columns: 1fr ;
     grid-template-rows: 3fr 2fr 1fr;
     margin: 0;
@@ -293,9 +297,7 @@ main {
     padding: 0px;
   }
 
-  .description {
-    display: none;
-  }
+  
 }
 
 
@@ -510,7 +512,7 @@ input[type="reset"]:hover {
 
 @media only screen and (max-width: 500px) {
   .footer {
-    top: 1050px;
+    top: 1350px;
     height: auto;
   }
 
