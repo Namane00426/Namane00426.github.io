@@ -155,6 +155,7 @@ nav li {
 
 @media only screen and (max-width: 500px) {
   main {
+    height: 270px;
     margin: 0;
   }
 
@@ -245,8 +246,9 @@ main {
  flex-direction: column;
 }
 
-@media only screen and (max-width: 400px) {
-  .imgContainer img {
+@media only screen and (max-width: 500px) {
+
+ .imgContainer img {
     width: 100px !important;
  }
 
@@ -259,7 +261,7 @@ main {
   main {
     height: 1200px;
     width: 100%;
-    top: 270px;
+    top: 370px;
     grid-template-columns: 1fr ;
     grid-template-rows: 3fr 2fr 1fr;
     margin: 0;
