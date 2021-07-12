@@ -159,11 +159,8 @@ nav li {
     padding: 5px;
     justify-content: space-evenly;
   }
+
   
-  main {
-    height: 270px;
-    margin: 0;
-  }
 
   .container {
     height: 200px;
@@ -204,7 +201,7 @@ nav li {
 
 main {
   position: absolute;
-  top: 355px;
+  top: 365px;
   display: grid;
   width: 100%;
   height: auto;
@@ -244,8 +241,6 @@ main {
 @media only screen and (max-width: 790px) {
   main {
     height: 1200px;
-    width: 100%;
-    top: 370px;
     grid-template-columns: 1fr ;
     grid-template-rows: 3fr 2fr 1fr;
     margin: 0;
@@ -285,7 +280,12 @@ main {
 
   
 }
-
+@media only screen and (max-width:500px) {
+  main {
+    height: 270px;
+    margin: 0;
+  }
+}
 
 /* sections */
 
