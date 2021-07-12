@@ -280,6 +280,7 @@ main {
 
   
 }
+
 @media only screen and (max-width:500px) {
   main {
     top: 270px;
@@ -515,7 +516,7 @@ input[type="reset"]:hover {
     justify-content: center;
     align-content: center;
   } 
-  
+
   .footerInfo, 
   .footerInfo a
   {
