@@ -15,11 +15,8 @@ Started leaning programming since 2020.
 Nanase Eriksson
 
 ## Version History
-
-* 0.1
-    * Initial Release
-* 1.0
-    * renewal design* 
+* 2.0
+    * renewal design
 
 ## License
 
