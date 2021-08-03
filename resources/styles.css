@@ -89,7 +89,7 @@ p {
 
 a, h1, h2, h3, h4, p, ul, li {
   display: block;
-  line-height: 1;
+  line-height: 1.2;
   text-decoration: none;
   list-style: none;
 }
@@ -223,7 +223,6 @@ nav {
 }
 
 nav ul {
-  /* width: 55%; */
   display: inline-flex;
   flex: 1;
   text-align: right;
@@ -321,6 +320,11 @@ nav ul li {
     padding: 10px 14px;
   }
 
+  .top-info .container:after {
+    top: 8px;
+    left: -8px;
+  }
+
   .top-info .container p {
     font-size: 1rem;
   }
@@ -349,8 +353,8 @@ nav ul li {
 }
 
 #project-list .box {
-  margin: 1rem;
-  width: 300px;
+  margin: 2rem 1rem;
+  width: 350px;
   height: auto;
 }
 
@@ -367,7 +371,7 @@ nav ul li {
   padding-left: .5rem;
   padding-top: 1rem;
   font-family: 'DM Sans', sans-serif;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 #project-list .box .title {
@@ -384,6 +388,11 @@ nav ul li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.discription p {
+  margin-top: 1rem;
+  font-size: 1rem;
 }
 
 .my-gray {
@@ -403,7 +412,13 @@ nav ul li {
     width: 100%;
     margin: 0 auto;
     padding: 5px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #project-list .box .title,
+  #project-list .box p {
+    width: 90%;
+    padding-top: 10px;
   }
 
   #project-list .box img {
