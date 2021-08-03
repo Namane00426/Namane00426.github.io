@@ -393,6 +393,7 @@ nav ul li {
 .discription p {
   margin-top: 1rem;
   font-size: 1rem;
+  color: var(--secondary-color);
 }
 
 .my-gray {
