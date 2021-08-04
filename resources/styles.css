@@ -65,7 +65,7 @@ h1 {
   font-weight: 600;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 h2 {
@@ -265,7 +265,7 @@ nav ul li {
   height: 100%;
   width: 100%;
   z-index: -999;
-  background: #41b2f9;
+  background: #2173A6;
 }
 
 .top-info .container p {
