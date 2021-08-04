@@ -446,4 +446,5 @@ footer {
   padding: 1rem;
   font-weight: 300;
   text-align: center;
+  color: var(--secondary-color);
 }
