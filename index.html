@@ -117,16 +117,18 @@
     }
 
     //setting for dark-light theme
-    const btn = document.querySelector("#btn-mode");
+    const theme = document.querySelector("#btn-mode");
 
-    btn.onclick = function() {
+    theme.onclick = function() {
       document.body.classList.toggle("dark-theme");
+      localStorage.setItem('theme', JSON.stringify(body.classList("dark-mode")));
     }
 
     //local storage
-        const rememberSet = localStorage.getItem('dark-theme');
+    // const theme = document.getElementById("btn-mode");
+    const rememberSet = JSON.stringify(localStorage.getItem('theme'));
     if (rememberSet) {
-        document.body.classList.replace('', 'dark-theme');
+      document.body.classList.replace("none", "dark-theme");
     }
 
   </script>
