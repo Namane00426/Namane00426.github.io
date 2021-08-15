@@ -6,8 +6,11 @@ The Find fish game is an interactive terminal game to move player character(cat)
 The game was created by Javascript and Node.js.
 You can play it by downloading the folder and starting it on your PC with 'node main.js'. 
 
-Play image 1
-![find-fish-game1](https://user-images.githubusercontent.com/64364271/129478818-f75db460-c513-4422-b5f5-11ed672a9e37.gif)
+Play image 1  
+![find-fish-game1](https://user-images.githubusercontent.com/64364271/129479290-1dbb13f4-d976-459d-ad1e-d24f105c9b32.gif)  
+
+play image 2  
+![find-fish-game2](https://user-images.githubusercontent.com/64364271/129479395-c72ca545-3203-4467-bad4-d24eadb6c113.gif)  
 
 ## Getting Started
 
