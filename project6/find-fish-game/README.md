@@ -1,10 +1,8 @@
-# Project Title
-
-An interactive terminal game : Find fish game
+# Find fish game
 
 ## Description
 
-The Find fish game is a game to move player character(cat) by keyboard and get the target(fish) while avoiding some enemy (snakes).
+The Find fish game is an interactive terminal game to move player character(cat) by keyboard and get the target(fish) while avoiding some enemy (snakes).
 The game was created by Javascript and Node.js.
 You can play it by downloading the folder and starting it on your PC with 'node main.js'. 
 
