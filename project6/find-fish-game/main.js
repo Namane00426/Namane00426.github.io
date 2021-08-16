@@ -1,3 +1,6 @@
+// This was built based on the Find-hat game, and I remodel it to the Find-fish game to become more fun to play. 
+//When the player goes out of bounds, it is placed wrap-around instead of game over. 
+
 const prompt = require('prompt-sync')({sigint: true});
 
 const hat = '🐠';  // hat = target 
@@ -18,6 +21,7 @@ class Field {
     return this._field;
   }
 
+  //If player start from the top-left corner
   // setStart() {
   //   this._field[0][0] = `${pathCharacter}`;
   //   return this._field;
@@ -66,10 +70,11 @@ class Field {
   } 
 
   checkWin() {
-    //Check if the current location is out of bound. If so, switch location to anothor side. 
-    //Check if the current location is same the target, the enemy or on the field.
-    //Player win if the current location is the target, lose if it meet the enemy.
+    //Check if the current location is out of bounds. If so, place it wrap-around.
+    //Check if the current location is the same as the target, the enemy, or on the field.
+    //The player wins if the current location is the same as the target, or loses if it meets the enemy.
 
+    // Helper function for checking if the current location meets the target or the enemy.
     const meetHatOrHole = () => {
       if (this._field[this.y][this.x] == hat) {
         this._field[this.y][this.x] = currentLocation;
@@ -84,6 +89,7 @@ class Field {
       } 
   }
 
+  // If the current location is out of bounds, place it as a wrap-around. 
     if(this.y == -1 || this.y > this._field.length-1) {
       if(this.y < 0){
         this.y += this._field.length;
@@ -124,6 +130,7 @@ class Field {
 
   }
 
+  // When one game end, ask if the player wants to choose a difficult field or normal for the next or end the game.
   askLevel() {
     let askLevel = prompt('......\nDo you play again? If you play the difficult level, type \'d\'. Or normal level, type\'n\'. If play end, type \'e\'.');
     switch(askLevel.toLowerCase()) {
@@ -149,12 +156,13 @@ class Field {
     }
   }
 
- //Gnerage a randomized two-dimensional array  whitch contains a hat and one or more holes.
+ //Generate a randomized two-dimensional array that contains a target and one or more enemies.
   static generateField(width, height, percentage) {
     const availableField = (width * height) - 2;
     let holeTotal = Math.round((availableField * (percentage / 100)));
     let holeInRow = Math.round(width * 0.5);
-    //Helper function to set hole depening on the percentage and the field size.
+
+    //Helper function that places the determined amount of enemies depending on the percentage and the field size.
     const setHoleOrField = (percentage) => {
       if( 0 < percentage && percentage < 100 ) {
           if(holeTotal > 0 && Math.random() >= 0.5 && holeInRow > 0){
@@ -169,7 +177,7 @@ class Field {
       console.log('Please set percentage(1 - 99) again! ');
       }
     }
-
+    //Helper function that makes new game field depending on the height, width.
     const plainField = () => {
       function makeRow() {
         let fieldRow = [];
@@ -189,7 +197,7 @@ class Field {
       } while (plainField[0][width-1] == hat || hole == hat);
       
 
-      // Set the start point on this field
+      // Set the start point on this field(= Top-right corner).
       plainField[0][width-1] = currentLocation;
       return plainField;
     }
@@ -208,6 +216,7 @@ class Field {
 
 let myField = new Field(Field.generateField(6,6,40));
 
+//Function to run the game.
   function game() {
     console.log('\nStart find-fish-game!');  
     console.log('\nYour current location shows 🐈.\nMove it and get a fish.\nDon\'t step on the snake.\n')
