@@ -10,7 +10,7 @@ Play image 1
 ![find-fish-game1](https://user-images.githubusercontent.com/64364271/129479290-1dbb13f4-d976-459d-ad1e-d24f105c9b32.gif)  
 
 play image 2  
-![find-fish-game2](https://user-images.githubusercontent.com/64364271/129479513-7bfc63b4-0afd-4faf-8827-833722455f8b.gif)  
+![find-fish-game2](https://user-images.githubusercontent.com/64364271/129552912-73b2b20f-1090-4533-8f15-43024709ae2e.gif)  
 
 ## Getting Started
 
