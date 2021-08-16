@@ -14,14 +14,17 @@ play image 2
 
 ## Getting Started
 
-### Dependencies
-
-* Node.js 
-
 ### Installing
 
-* Download from here.
+1. Download Node.js.
+2. Install "prompt-sync" module by typing `npm i prompt-sync` in your terminal.
+3. Run 'node main.js' in your terminal and the game start.
+
 * No modifications needed to files/folders.
+
+### Technologies
+* Javascript ES6
+* Node.js 
 
 ## Help
 Under construction.
