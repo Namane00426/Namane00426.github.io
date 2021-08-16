@@ -79,12 +79,14 @@ class Field {
       if (this._field[this.y][this.x] == hat) {
         this._field[this.y][this.x] = currentLocation;
         this.print();
-        console.log('\nYou win!🏆 You got the fish! Yum🐱!');  
+        console.log('\nYou win!🏆 You got the fish! Yum🐱!');
+        this.askLevel();  
         return gameContinue = false;
       } else if (this._field[this.y][this.x] == hole) {
         this._field[this.y][this.x] = '❎';   
         this.print();
-        console.log('\nYou lose!😢 You stepped on the snake!');  
+        console.log('\nYou lose!😢 You stepped on the snake!'); 
+        this.askLevel();  
         return gameContinue = false;
       } 
   }
@@ -136,18 +138,18 @@ class Field {
     switch(askLevel.toLowerCase()) {
       case 'd':
         gameContinue = true;
-        console.log('\n\nStart to play the difficult level!')
+        console.log('\n\nStart to play the difficult level!');
         myField = new Field(Field.generateField(7,8,55));
         game(); 
         break;
       case 'n':
         gameContinue = true;
-        console.log('Start to play the same level!')
+        console.log('Start to play the same level!');
         myField = new Field(Field.generateField(6,6,40));
         game(); 
         break;
       case 'e':
-        console.log('Thank you for playing the game! Bye!')
+        console.log('Thank you for playing the game! Bye!');
         break;
       default:
         console.log('\nType d, n or e.')
@@ -226,7 +228,7 @@ let myField = new Field(Field.generateField(6,6,40));
     myField.checkWin();
     }
     console.log('Game end.')
-    myField.askLevel();
+    // myField.askLevel();
 }
 
 
