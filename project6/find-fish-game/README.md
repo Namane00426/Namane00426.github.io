@@ -35,8 +35,8 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. Nanase Eriksson
-ex. [mail](nanase.forapp@gmail.com)
+Nanase Eriksson
+[mail](nanase.forapp@gmail.com)
 
 ## Version History
 
