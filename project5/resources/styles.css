@@ -169,6 +169,11 @@ header .frame {
   margin-right: 0;
  }
 
+ nav ul a:hover {
+   border-bottom: .5px solid #4a4a4a;
+   transition: .5s;
+ }
+
  header .wrap {
    position: relative; 
    top: 64px;
@@ -294,7 +299,7 @@ margin-bottom: 32px;
   }
 
   #info .container:hover {
-    background-color: #eaebec;
+    background-color: #f8f5f5;
   }
 
   #info .container.bottom {
