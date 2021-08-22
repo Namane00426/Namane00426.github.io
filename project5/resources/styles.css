@@ -463,9 +463,9 @@ video {
     height: auto;
   }
 
-  .side-content .bottom img {
-    /* margin-top: 16px; */
-  }
+  /* .side-content .bottom img {
+    margin-top: 16px;
+  } */
 
   .side-content .container {
     padding: 0 1rem;
