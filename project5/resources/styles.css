@@ -219,6 +219,10 @@ main .container {
   border-bottom: .5px solid #dad8d8;
 }
 
+main .container:hover {
+  background-color: #eaebec;
+}
+
 #info img {
   width: 100%;
   margin-bottom: 16px;
@@ -288,9 +292,13 @@ margin-bottom: 32px;
     border-bottom: .5px solid #c4c3c3;
   }
 
+  #info .container:hover {
+    background-color: #eaebec;
+  }
+
   #info .container.bottom {
     border-bottom: 0px none;
-    background: #dbdbdb;
+    /* background: #dbdbdb; */
     margin-bottom: 32px;
   }
 
@@ -446,13 +454,17 @@ video {
     align-items: center;
   }
 
+  .side-content .box:hover {
+    background-color: #eaebec;
+  }
+
   .side-content img {
     width: 30%;
     height: auto;
   }
 
   .side-content .bottom img {
-    margin-top: 16px;
+    /* margin-top: 16px; */
   }
 
   .side-content .container {
