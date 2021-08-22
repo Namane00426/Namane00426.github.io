@@ -1,6 +1,7 @@
 # Nanase Eriksson
 
-This is Nanase Eriksson's webpage. 
+This is Nanase Eriksson's webpage.   
+[Live: https://namane00426.github.io/](https://namane00426.github.io/)
 
 ## intro and biography
 
