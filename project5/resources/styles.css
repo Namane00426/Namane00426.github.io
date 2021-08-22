@@ -289,7 +289,8 @@ margin-bottom: 32px;
   #info .container {
     display: inline-flex;
     align-items: center;
-    border-bottom: .5px solid #c4c3c3;
+    /* border-bottom: .5px solid #c4c3c3; */
+    margin-bottom: 0px;
   }
 
   #info .container:hover {
@@ -452,6 +453,7 @@ video {
   .side-content .box {
     display: inline-flex;
     align-items: center;
+    margin-bottom: 1rem;
   }
 
   .side-content .box:hover {
