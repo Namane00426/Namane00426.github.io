@@ -120,6 +120,10 @@ a:active {
   text-decoration: none;
 }
 
+a > .gitHubRepo:hover {
+  color: var(--border3);
+}
+
 .container {
   padding: 1.5rem;
   height: auto;
