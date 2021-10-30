@@ -9,12 +9,12 @@
 }
 
 :root {
-  --primary-color: #fbfbff;
+  --primary-color: #f8f6f1;
   --primary-color2: #fbfbff;
   --secondary-color: #333;
-  --secondary-color2: #41b2f9;
+  --secondary-color2: #f96941;
   --border-color: #333;
-  --border2: #41b2f9;
+  --border2: #adaeaf;
   --border3: #9c9a9a;
 }
 /* setting light-dark mode */
