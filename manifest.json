@@ -1,12 +1,48 @@
 {
-  "lang": "en",
-  "name": "Nanase's Portfolio",
   "short_name": "N-Portfolio",
-  "icons": [{
-        "src": "/app-icon.png",
-        "sizes": "144x144",
-        "type": "image/png"
-      }],
-  "start_url": "https://namane00426.github.io/",
-  "display": "standalone"
+  "name": "Nanase's Portfolio",
+  "icons": [
+    {
+      "src": "/images/icons-vector.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "",
+      "short_name": "",
+      "description": "",
+      "url": "",
+      "icons": [{ "src": "", "sizes": "" }]
+    }
+  ],
+  "description": "Nanase's Portfolio",
+  "screenshots": [
+    {
+      "src": "/images/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/images/screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "540x720"
+    }
+  ]
 }
