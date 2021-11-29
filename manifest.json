@@ -1,0 +1,12 @@
+{
+  "lang": "en",
+  "name": "Nanase's Portfolio",
+  "short_name": "N-Portfolio",
+  "icons": [{
+        "src": "/app-icon.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }],
+  "start_url": "https://namane00426.github.io/",
+  "display": "standalone"
+}
